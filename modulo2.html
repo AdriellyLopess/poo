@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>modulo2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        let contador =0
+        for (let i=1000; i<=2000; i++){
+            if(i % 11==2){
+                document.write(i + ", ");
+                contador++; 
+            }
+            
+        }
+        document.write("<br> Existem " + contador +" números...");
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Frutas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+       let vegetais = ['Repolho', 'Nabo', 'Rabanete', 'Cenoura'];
+          document.write(vegetais);
+          //docume.write( vegetais + "<br>");
+          var pos = prompt ("digite um indice para remover");
+          var n = prompt("quantos depois do item");
+          var itensRemovidos = vegetais.splice(pos,n);
+          document.write("<br> itensRemovidos: " + itensRemovidos + "<br>");
+          document.write("<br> itensComprados: " + vegetais + "<br>");
+
+    </script>
+</body>
+</html>

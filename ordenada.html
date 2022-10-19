@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Vetor ordenado</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        const numeros = [];
+        let produto = 1;
+        let qtde = prompt( "Digite a quantidade");
+        for(let i=0; i<qtde; i++){
+            var numbers = prompt("Informe número");
+            numeros[i] = numbers;
+          //  produto = produto * numeros[i];
+        }
+            alert("Revertres:   " + numeros.reverse());
+        for(let j=0; j<qtde; j++){
+            document.writeln(numeros[j])
+           // alert("O resultado da multiplicação = " + produto);
+        }
+        alert("Vetor organizado:  " + numeros.sort());
+        
+    </script>
+</body>
+</html>

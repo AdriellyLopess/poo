@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Remover da lista</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        const mercadinho = [];
+        let itens = prompt("Quantos itens?");
+        for(var carrinho = 0; carrinho<itens; carrinho++){
+            let produto = prompt("Produto:  ")
+            mercadinho.push(produto);
+        }
+        //for(var carrinho=0; carrinho<itens; carrinho++){
+            document.write(mercadinho[carrinho] + "<br>");
+            document.write("<br> Ultimo item removido: " + mercadinho.pop())
+        //}
+        mercadinho.pop();
+    </script>
+</body>
+</html>
